@@ -41,3 +41,34 @@
     justify-content: center;
   }
   
+  .Apps {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: green;
+  }
+  
+  .login button {
+    width: 100px;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: orange;
+  }
+  
+  .dashboard button {
+    width: 100px;
+  }
+  
