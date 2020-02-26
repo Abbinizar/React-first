@@ -6,13 +6,14 @@ import Dashboard from "./Dashboard";
 // import Effect from "./State/useEffect.js"
 // import Chat from "./Chat"
 import Pagination from "./Pagination";
-import PassingProps from "./PassingProps";
+// import PassingProps from "./PassingProps";
+import AxiosExecute from "./Axios";
 
 const Routes = () => {
     return (
         <Switch>
             <Route exact path="/">
-                <PassingProps />
+                <AxiosExecute />
             </Route>
             <Route path="/dashboard">
                 <Dashboard />
